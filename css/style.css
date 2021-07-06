@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    /* Regular 400, Medium 500, Semi-bold 600, Bold 700, Extra-bold 800 */
+    font-family: 'Poppins', sans-serif;
+}
+
+.fullWraper {
+    width: 100%;
+}
+
+.wraper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.sectionHeading {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sectionHeading h1 span,
+.sectionHeading h1 {
+    color: #843c0c;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.sectionHeading h1 span {
+    color: #1f4e79;
+}
+
+/* Commence of navbar Section CSS */
+.navbar {
+    border-bottom: 2px solid #1f4e79;
+}
+.logo {
+    width: 250px;
+    padding: 20px 10px;
+    float: left;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    width: 880px;
+    padding: 20px 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    display: block;
+    padding: 0px 15px;
+}
+
+.menu ul li:last-child {
+    padding-right: 0;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f4e79;
+    padding: 10px 15px;
+    transition: all linear 0.4s;
+}
+
+.menu ul li:hover a {
+    background: #1f4e79;
+    transition: all linear 0.4s;
+    color: #ffffff;
+}
+/* Termination of navbar Section CSS */
+
+
+/* Commence of Banner Section CSS */
+.banner {
+    background-image: url(../images/darkLogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-top: 0px;
+}
+
+.bannerOverlay {
+    background-image:linear-gradient(hsla(24, 83%, 28%, 0.609), rgba(31, 78, 121, 0.609));
+    height: 300px;
+    border-bottom: 2px solid #1f4e79;
+}
+/* Termination of Banner Section CSS */
+
+
+/* Commence of About Section CSS */
+.aboutContentC,
+.aboutContent {
+    background-image: url(../images/aboutBanner.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 85px;
+}
+
+.abPowDesp {
+    width: 550px;
+    padding: 0px 10px;
+    float: left;
+}
+
+.abPowDesp h5 {
+    text-align: justify;
+    color: #1f4e79;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.abPowImg {
+    width: 550px;
+    padding: 0px 10px;
+    float: left;
+    margin-left: 30px;
+}
+
+.abPowImg img {
+    width: 75%;
+    padding-left: 92px;
+}
+
+.aboutContentB {
+    background-image: url(../images/aboutBannerB.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 85px;
+}
+
+.aboutContentC {
+    background-image: url(../images/aboutBannerC.png);
+}
+/* Termination of About Section CSS */
+
+
+/* Commence of Service Section CSS */
+.serviceItem {
+    width: 370px;
+    float: left;
+    padding: 0px 10px;
+}
+
+.aService {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.serImg {
+    transition: all linear 0.4s;
+    box-shadow: 0 0 7px #000000;
+    border-radius: 10px;
+}
+
+.serImg img {
+    width: 100%;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+.name h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #832727;
+    margin-top: 5px;
+    padding: 7px 0px;
+    border-radius: 10px;
+    transition: all linear 0.4s;
+}
+
+.name:hover h3 {
+    background-image: linear-gradient(rgb(238, 25, 43), rgb(0, 0, 0));
+    color: #ffffff;
+    transition: all linear 0.4s;
+    border-radius: 10px;
+}
+/* Termination of Service Section CSS */
+
+
+/* Commence of Project Section CSS */
+.webProjects {
+    width: 100%;
+    margin: 30px 10px;
+    float: none;
+}
+
+.dataProjects {
+    width: 100%;
+    margin: 0px 10px;
+    float: none;
+}
+
+.proImg {
+    width: 460px;
+    float: left;
+}
+
+.proImg img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.proDesp {
+    width: 650px;
+    height: 300px;
+    margin-left: 40px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px #000000;
+}
+
+#webProDesp {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(238, 25, 43), rgb(0, 0, 0));
+    border-image-slice: 1;
+}
+
+.proDesp h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #1f4e79;
+    text-align: justify;
+    padding: 45px 40px;
+}
+
+.proDesp h4 span {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #832727;
+    text-align: left;
+}
+
+.dataProjects .proDesp {
+    float: left;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+
+#dataProDesp {
+    border-right: 10px solid;
+    border-image: linear-gradient(rgb(0, 36, 121), rgb(140, 4, 219));
+    border-image-slice: 1;
+}
+
+.dataProjects .proImg {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+/* Termination of Project Section CSS */
+
+
+/* Commence of Contact Section CSS */
+.contactSource ul {
+    padding: 50px 0px;
+    float: left;
+}
+
+.contactSource ul li {
+    float: right;
+    display: block;
+}
+
+.contactSource ul li a {
+    color: #3f3b3b;
+    font-size: 80px;
+    padding: 0px 80px;
+    transition: all linear 0.4s;
+}
+
+.contactSource ul li:hover a {
+    color: #39af35;
+    transition: all linear 0.4s;
+}
+/* Termination of Contact Section CSS */
+
+
+/* Commence of Footer Section CSS */
+.footer {
+    background: #3d3c3c;
+}
+
+.footer .logo {
+    width: 560px;
+    float: left;
+    margin: 0px 10px;
+    padding-bottom: 80px;
+}
+
+.copyright {
+    width: 545px;
+    margin: 0px 10px;
+    float: left;
+    padding-top: 30px;
+}
+
+.copyright h4 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    border-left: 5px solid #39af35;
+}
+/* Termination of Footer Section CSS */
+
